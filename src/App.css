@@ -1,22 +1,81 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  background: #3c3c3c;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+  margin-bottom: 0 !important;
 }
 
-.App-link {
-  color: #09d3ac;
+section {
+  margin-bottom: 2rem;
+}
+
+.wrapper {
+  margin: 4rem auto;
+  border-radius: .75rem;
+  padding-top: 1rem !important;
+  background: #fff;
+}
+
+.tabs li {
+  font-size: 14px;
+}
+
+.card-content {
+  padding: .2rem .4rem !important;
+}
+
+.card-content p {
+  font-size: 14px;
+}
+
+.card-content small {
+  font-size: 12px !important;
+}
+
+.card {
+  box-shadow: none !important;
+}
+
+.card-image img {
+  border-radius: 1rem !important;
+}
+
+.tabs {
+  margin-top: 1rem;
+}
+
+.content_lg {
+  position: relative;
+}
+
+.content_lg .card-image {
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7)), url('https://picsum.photos/1280/300');
+  width: 100%;
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: .75rem !important;
+}
+
+.content_lg .content {
+  position: absolute !important;
+  z-index: 1 !important;
+  top: 1.8rem !important;
+  left: .75rem !important;
+}
+
+.content_lg .content h2 {
+  margin-bottom: 1rem !important;
+  font-weight: 100 !important;
+}
+
+.content_lg .content i {
+  margin-right: 5px;
 }
